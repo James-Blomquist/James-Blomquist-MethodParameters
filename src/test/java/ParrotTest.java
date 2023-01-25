@@ -29,7 +29,7 @@ public class ParrotTest extends Parrot
 
     public static void main(String[] args)
     {    
-    ParrotTest z = new ParrotTest();  
+    ParrotTest z = new ParrotTest();   
     z.parrotTestHello();
     z.parrotTestPolly();
     }
