@@ -2,7 +2,8 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ParrotTest {
+public class ParrotTest extends Parrot
+ {
     Parrot p = new Parrot();
 
     /**
@@ -24,5 +25,13 @@ public class ParrotTest {
         String expected = "polly";
         String actual = p.copy(input);
         Assert.assertEquals(expected, actual);
+    }
+
+    public static void main(String[] args)
+    {    
+    ParrotTest z = new ParrotTest();  
+      
+    z.parrotTestHello();
+    z.parrotTestPolly();
     }
 }
